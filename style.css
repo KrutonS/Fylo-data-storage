@@ -50,7 +50,7 @@ input[type="button"]
     margin-right: 7px;
     margin-top: 25px;
     outline: none;
-    transition: background-color 200ms;
+    transition: background-color 200ms, transform 200ms;
 }
 input[type="button"]:hover
 {
@@ -60,6 +60,7 @@ input[type="button"]:hover
 input[type="button"]:active
 {
     background-color: hsl(229, 50%, 23%);
+    transform: scale(2);
 }
 /* progress
 {
